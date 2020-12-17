@@ -76,7 +76,7 @@ def to_infix(s):
             string=" ( {} / {} ) ".format(a,b)
             stack.append(string)
 
-    print(stack.pop())
+    return stack.pop()
         
 
 
